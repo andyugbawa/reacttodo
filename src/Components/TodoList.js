@@ -5,7 +5,6 @@ import { faTrash, faPenToSquare, faCheck, faFloppyDisk } from '@fortawesome/free
 
 function TodoList() {
   const [lists, setLists] = useState(() => {
-    // Retrieve the initial state from localStorage
     const savedLists = localStorage.getItem('shoppingLists');
     return savedLists ? JSON.parse(savedLists) : [];
   });
