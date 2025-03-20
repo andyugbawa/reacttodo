@@ -12,7 +12,7 @@ function TodoList() {
   const [editList, setEditList] = useState(null);
   const [indexList, setIndexList] = useState('');
 
-  // Save to localStorage whenever 'lists' changes
+  
   useEffect(() => {
     localStorage.setItem('shoppingLists', JSON.stringify(lists));
   }, [lists]);
