@@ -14,7 +14,7 @@ h1{
 .container{
     width:800px;
     height: 800px;
-    border: 2px solid grey;
+    /* border: 2px solid grey; */
 }
 .list-head{
     display: flex;
